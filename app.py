@@ -100,15 +100,15 @@ app.layout = dbc.Container([
             dbc.Card([
                 dbc.CardHeader("Detection Results"),
                 dbc.CardBody(
-                    dcc.Loading(
-                        id="loading-results",
-                        type="default",
-                        children=[
-                            html.Div(id='annotated-image-container', style={'textAlign': 'center', 'marginBottom': '20px'}),
-                            html.Div(id='detection-results', style={'whiteSpace': 'pre-wrap'}),
-                        ]
+                        dcc.Loading(
+                            id="loading-results",
+                            type="default",
+                            children=[
+                                html.Div(id='annotated-image-container', style={'textAlign': 'center', 'marginBottom': '20px'}),
+                                html.Div(id='detection-results', style={'whiteSpace': 'pre-wrap'}),
+                            ]
+                        )
                     )
-                )
             ]),
             md=6
         )
