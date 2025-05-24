@@ -17,9 +17,14 @@ This project is an interactive web application for object detection in images, b
 
 ## Prerequisites
 
-- Python 3.7
+- Python 3.7 or higher
+- A modern web browser (Chrome, Firefox, Safari, or Edge)
 - VisionAgent API key
-  - To get a VisionAgent API key, go to VisionAgent's website and register for an account (This is really fast and you can use your Google account). Then access your API key in https://va.landing.ai/account/api-key.
+  - To get a VisionAgent API key:
+    1. Go to [VisionAgent's website](https://landing.ai/visionagent)
+    2. Register for an account (you can use your Google account for quick signup)
+    3. Navigate to https://va.landing.ai/account/api-key to access your API key
+  - Note: VisionAgent offers a free tier with limited API calls, which is sufficient for testing and small projects
 
 ## Installation
 
