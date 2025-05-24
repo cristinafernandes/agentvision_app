@@ -1,6 +1,6 @@
 # VisionAgent Object Detection Web App
 
-A web application that leverages VisionAgent's API to perform object detection in images. Built with Dash and Bootstrap, this application provides an intuitive interface for uploading images and detecting multiple objects simultaneously.
+This project is an interactive web application for object detection in images, built using [VisionAgent](https://landing.ai/visionagent) and [Plotly Dash](https://dash.plotly.com/). Simply upload any image, specify the objects you want to detect, and view the detected objects with bounding boxes as well as a summary table of all the detections.
 
 ![VisionAgent Demo](assets/visionagentdemo.gif)
 
@@ -17,14 +17,15 @@ A web application that leverages VisionAgent's API to perform object detection i
 
 ## Prerequisites
 
-- Python 3.x
+- Python 3.7
 - VisionAgent API key
+  - To get a VisionAgent API key, go to VisionAgent's website and register for an account (This is really fast and you can use your Google account). Then access your API key in https://va.landing.ai/account/api-key.
 
 ## Installation
 
 1. Clone this repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/cristinafernandes/agentvision_app
 cd visionagent_app
 ```
 
