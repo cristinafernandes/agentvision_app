@@ -3,3 +3,4 @@ dash_bootstrap_components
 requests
 Pillow
 numpy
+python-dotenv
